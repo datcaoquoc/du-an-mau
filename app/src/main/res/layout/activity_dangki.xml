@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:background="#0CA683"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="đăng kí tài khoản"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="cùng tận hưởng những phút giây mua sắm tại toto shop"
+        android:textColor="#ffffff"
+        android:textSize="15dp">
+
+    </TextView>
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        android:layout_height="60dp"
+        android:background="@drawable/styleeditext"
+        android:elevation="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Tên tài khoản"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/styleeditext1" />
+
+    <ImageButton
+    android:layout_width="60dp"
+    android:layout_marginTop="210dp"
+    android:src="@drawable/ic_baseline_alternate_email_24"
+    android:layout_height="60dp"
+    android:background="@drawable/styleeditext"
+    android:elevation="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_gravity="center_vertical"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="email"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="217dp"
+        android:background="@drawable/styleeditext1" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/ic_baseline_phone_in_talk_24"
+        android:layout_height="60dp"
+        android:background="@drawable/styleeditext"
+        android:elevation="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="số điện thoại"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="298dp"
+        android:background="@drawable/styleeditext1" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/ic_baseline_keyboard_24"
+        android:layout_height="60dp"
+        android:background="@drawable/styleeditext"
+        android:elevation="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="mật khẩu"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="373dp"
+        android:background="@drawable/styleeditext1" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_marginTop="445dp"
+        android:src="@drawable/ic_baseline_keyboard_24"
+        android:layout_height="60dp"
+        android:background="@drawable/styleeditext"
+        android:elevation="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="nhập lại mật khẩu"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/styleeditext1" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="539dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <Button
+                android:layout_marginRight="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styleeditext"
+                android:text="đăng kí"
+                android:textColor="#ffffff">
+
+            </Button>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/styleeditext"
+            android:text="quay lại"
+            android:textColor="#ffffff">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -73,11 +73,11 @@
         android:textColor="#ffffff" />
 
     <Button
+        android:id="@+id/btndangnhap"
         android:layout_width="301dp"
         android:textColor="#ffffff"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -92,6 +92,7 @@
     </Button>
 
     <TextView
+        android:id="@+id/tvchuyendangki"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="italic"
